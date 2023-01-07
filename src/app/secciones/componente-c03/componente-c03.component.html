@@ -1,0 +1,51 @@
+<section class="container">
+    <section class="row">
+        <section class="col-4 border border-2">
+            <form>
+                <!-- Tarea-->
+                <section>
+                    <h4>Ingresar:</h4>
+                    <section>
+                        <input type="text" class="comp4" name="tarea" 
+                        placeholder="Ingresar nombre de Tarea" [(ngModel)]="tarea" (input)="actualizarBoton()" >
+                    </section>
+                </section>
+                <br>
+                <!---->
+                <!--Descripcion-->
+                <section> 
+                    <textarea class="descripcion" name="descripcion" rows="3" cols="40" 
+                    placeholder="Ingresa Descripcion" [(ngModel)]="descripcion " (input)="actualizarBoton()" ></textarea>
+                </section>
+                <br>
+                <!---->
+                <!--Button -->
+                <section>
+                    <button class="btn btn-primary col-3" type="button" value="Enviar" (click)="Agregar()" [disabled]="botonDeshabilitado" >Guardar</button>
+                </section>
+
+            </form> 
+        </section>
+    <section class="col-6">
+        <section class="col-6 rounded float-end">
+            <section class="border border-2">
+                <h4>Lista de Tareas:</h4>
+                <section class="border border2">
+                    <ul *ngFor="let fila of datos; let i = index">
+                        <li>{{i+1}}</li>
+                        <li>{{fila.tarea}}</li>
+                        <li>{{fila.descripcion}}</li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+        
+    </section>
+
+</section>
+<p></p>
+
+     
+    
+
+

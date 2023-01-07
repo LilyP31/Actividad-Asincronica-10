@@ -1,0 +1,11 @@
+.img-angular{
+    width: 4%;
+    background-color: white;
+    margin: 0.7rem;
+    margin-left: 1.3rem;
+}
+.encabezado{
+    background-color: rgb(191, 186, 186);
+    border-radius: 35px;
+    margin-top: 0.3rem;
+}

@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.comp4{
+    border-radius: 10px;
+    border-color: darkgrey;
+    width: 315px;
+    height: 30px;
+    text-align: center;
+}
+.descripcion{
+    border-radius: 10px;
+}
+
+

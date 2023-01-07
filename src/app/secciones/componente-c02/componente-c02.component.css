@@ -1,0 +1,10 @@
+.piedepagina{
+    background-color: rgb(191, 186, 186);
+    border-radius: 35px;
+  
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding: 1.8rem;
+}

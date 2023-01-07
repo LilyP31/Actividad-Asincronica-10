@@ -1,0 +1,18 @@
+<section class="container p-2 col-3  border border-2">
+
+    <!--Lista de Tareas-->
+    <section class="row">
+        
+        <h4>Lista de Tareas:</h4>
+        <section class="border border-2 tareas">
+            <ul *ngFor="let fila of datos;let i = index">
+                 <li>{{i +1}}</li>
+                 <li>{{fila.tarea}}</li>
+                 <li>{{fila.descripcion}}</li>
+                 <li>{{fila.tarea}}</li>
+                 
+            </ul>
+        </section>
+    </section>
+</section>
+<p></p>
